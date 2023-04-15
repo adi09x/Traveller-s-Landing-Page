@@ -1,0 +1,270 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 4.5rem;
+  background-color: white;
+  z-index: 1000;
+}
+
+.navbar #navlist { 
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 8rem;
+  padding: 10px;
+}
+
+.navbar #navlist li {
+  list-style: none;
+  font-size: 22px;
+}
+
+#home {
+  border-bottom: 4px solid #f3f1ed;
+}
+
+.navbar #navlist li a {
+  text-decoration: none;
+  color: #3c342c;
+}
+
+#logo {
+  height: 50%;
+  margin-left: 3rem;
+}
+
+#shape {
+  height: 50%;
+  margin-left: 5rem;
+}
+
+#shape1 {
+  position: absolute;
+  height: 6%;
+  width: 27%;
+  bottom: 128px;
+  left: 8%;
+}
+
+
+
+
+
+header p {
+    padding: 10px;
+    font-size: 1.5em;
+}
+header img {
+    border-radius: 50%;
+}
+
+  main {
+    margin: 0px auto 50px auto;
+    text-align: center;
+    background-size: cover;
+    text-align: center;
+  }
+  
+  h1 {
+    padding-top: 150px;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 300;
+    letter-spacing: 1.1px;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+  }
+  
+  h3 {
+    font-family: Work Sans;
+    font-weight: 500;
+    line-height: 1.29;
+    color: #27c19e;
+    padding-left: 5px
+  }
+  
+  p {
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.36;
+    text-align: left;
+    color: #4a4a4a;
+    padding-left: 5px;
+  }
+  
+  form {
+    margin-top: 50px;
+    height: 100px;
+  }
+  
+  footer {
+    display: flex;
+    align-items: center;
+    height: 50px;
+  }
+  
+
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+    visibility: hidden;
+  }
+  
+  
+  .venue {
+    width: 275px;
+    padding: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  }
+  
+  .venueimage {
+    margin-top: 20px;
+  }
+  
+  #venues h2 {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 0.77;
+    text-align: center;
+    padding-top: 5px;
+  }
+  
+  #destination {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.9px;
+    text-align: left;
+    color: #27b7c1;
+    margin-bottom: 5%;
+  }
+  
+  .sectiontitle {
+    height: 70px;
+    width: 300px;
+    align-items: center;
+  }
+  
+  .sectiontitle h2 {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 3.4px;
+    text-align: left;
+    color: #4a4a4a;
+  }
+  
+  #venues {
+    display: flex;
+    justify-content: space-around;
+    min-height: 250px;
+  }
+  
+  #weather {
+    display: flex;
+    justify-content: space-around;
+    min-height: 350px;
+  }
+  
+  #city {
+    width: 286px;
+    height: 46px;
+    border-radius: 4px;
+    border: solid 2.5px #100d0d;
+    background-color: inherit;
+    opacity: 0.73;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: #0e0909;
+  }
+  
+  #button {
+    width: 140px;
+    height: 46px;
+    border-radius: 4px;
+    background-color: #373a3a;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 0.94;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+
+
+
+  
+    h1 {
+      padding-top: 80px;
+      font-size: 32px;
+    }
+  
+    form {
+      margin-top: 30px;
+      padding-bottom: 10px;
+    }
+  
+  
+   
+  
+
+    /* #tipsmain{
+
+       
+
+            background-color: aqua;
+            background-image: url('/Images/contact.jpg');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+    
+    } */
+
+   
+body{
+    background-color: aqua;
+    background-image: url('/Images/tips.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
+center h3{
+   margin-top: 50px;
+   /* font-weight: 600; */
+   color: black;
+   font-size: 24px; 
+   font-style: italic;
+   
+}
+
+
+#tipsmain{
+    /* width: 00px; */
+    margin-right: 30%;
+    margin-left: 30%;
+    background-color: azure;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+#tipsmain h1,h2{
+
+    color : rgb(48, 176, 218);
+    font-weight: 700;
+    
+}
+    
+
